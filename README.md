@@ -1,5 +1,38 @@
 # MetodoNewton_Python
 Codigo en Python para Matematicas IV del Methodo de Newton
+
+# Operadores Aritmeticos
+Operadores Aritméticos Básicos:
+- Adición: Utiliza el operador `+` para sumar dos términos. Ejemplo: `2*x + 3`.
+- Sustracción: Utiliza el operador `-` para restar dos términos. Ejemplo: `x - 5`.
+- Multiplicación: Utiliza el operador `*` para multiplicar dos términos. Ejemplo: `3*x*2`.
+-División: Utiliza el operador `/` para dividir dos términos. Ejemplo: `4*x / 2`.
+Potenciación:
+- Para elevar un término a una potencia, utiliza el operador `**`. Ejemplo: `x**2` representa x al cuadrado.
+Raíces Cuadradas:
+- Para calcular la raíz cuadrada de un término, utiliza la notación `sqrt()`. Ejemplo: `sqrt(x)` representa la raíz cuadrada de x.
+Funciones Trigonométricas:
+- Puedes utilizar funciones trigonométricas como `sin(x)`, `cos(x)`, `tan(x)`, etc. Ejemplo: `sin(x) - cos(x)`.
+Funciones Exponenciales y Logaritmos:
+- Para expresar funciones exponenciales, utiliza `exp()`. Ejemplo: `2*exp(x)` representa 2e^x.
+- Para logaritmos naturales, utiliza `log()`. Ejemplo: `log(x)` representa ln(x).
+Paréntesis:
+- Utiliza paréntesis para agrupar términos y definir el orden de operaciones. Ejemplo: `(2*x + 3)/(x - 5)`.
+Operadores de Comparación:
+- Si deseas comparar dos términos, puedes utilizar operadores como `<`, `>`, `<=`, `>=`, `==`, `!=`.
+Números Reales:
+- Ingresa números reales como `3.14`, `2.5`, `-1.0`, etc.
+Símbolos y Variables:
+- Utiliza letras o símbolos como variables en tu función, como `x`, `y`, `a`, `b`, etc.
+Ejemplos:
+1. Ecuación cuadrática con potencia: `x**2 - 9`.
+2. Raíz cuadrada: `sqrt(x) - 2`.
+3. División: `3*x / (2*x + 1)`.
+4. Logaritmo natural: `log(x) - 1`.
+5. Función trigonométrica: `sin(x) - cos(x)`.
+
+Ten en cuenta que la aplicación utilizará la notación matemática estándar para evaluar las funciones. Asegúrate de que tu entrada sea coherente con la notación matemática y sigue las reglas de sintaxis matemática para evitar errores en la evaluación de la función.
+
 ## Guia de Usuario 
 Guía de Usuario: Aplicación del Método de Newton
 1.	Inicio de la Aplicación:
@@ -77,3 +110,4 @@ Ejemplos completos para ingresar en la aplicación, incluyendo la función, el v
 
 ## Ejemplo de un ejercicio resuelto
 ![Alt text](image.png)
+
