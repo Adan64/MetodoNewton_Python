@@ -75,3 +75,5 @@ Ejemplos completos para ingresar en la aplicación, incluyendo la función, el v
    - Número máximo de iteraciones: `5`.
 
 
+## Ejemplo de un ejercicio resuelto
+![Alt text](image.png)
