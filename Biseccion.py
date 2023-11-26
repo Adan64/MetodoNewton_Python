@@ -4,18 +4,18 @@ def bisection_method(func, a, b, tol, max_iter):
     x = sp.symbols('x')
     f = sp.lambdify(x, func)
 
-    print("\nIteración\t   a\t\t   b\t\t   c\t\t  f(c)")
-    print("="*60)
+    print("\nIteración\t   a\t\t   b\t\t   c\t\t  f(c)\t\t  b - a")
+    print("="*80)
 
     iter_count = 0
 
-    while (b - a) / 2 > tol and iter_count < max_iter:
+    while iter_count < max_iter:
         c = (a + b) / 2
         fc = f(c)
 
-        print(f"{iter_count+1}\t\t {a:.6f}\t {b:.6f}\t {c:.6f}\t {fc:.6f}")
+        print(f"{iter_count}\t\t {a:.6f}\t {b:.6f}\t {c:.6f}\t {fc:.6f}\t {b - a:.6f}")
 
-        if fc == 0:
+        if fc == 0 or abs(b - a) < tol:
             break
         elif f(a) * fc < 0:
             b = c
@@ -45,11 +45,11 @@ def main():
     if user_input:
         func, a, b, tolerance, max_iterations = user_input
         print("\nResolviendo usando el método de la bisección:")
-        print("===========================================")
-        print("Iteración\t   a\t\t   b\t\t   c\t\t  f(c)")
-        print("="*60)
+        print("=====================================================")
+        print("Iteración\t   a\t\t   b\t\t   c\t\t  f(c)\t\t  b - a")
+        print("="*80)
         root, iterations = bisection_method(func, a, b, tolerance, max_iterations)
-        print("="*60)
+        print("="*80)
         print(f"\nAproximación de la raíz: {root}")
         print(f"Número de iteraciones: {iterations}")
 
